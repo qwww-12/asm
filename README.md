@@ -1,4 +1,4 @@
-Assembly language
+*Assembly language*
 
 for run and compile code asm need install nasm for compile asm file to object file like this:
         nasm -f elf64 file.asm -o file.o
