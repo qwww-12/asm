@@ -7,8 +7,8 @@
 -        -f for chose format depending on your system
 - [x] now need excutable file we use command ld and ld for extruct excutable file from object file like this:
 
--        ```ld -o excutable_file object_file.o```
+-        ld -o excutable_file object_file.o
 
 - [x] we get a excute file and run this file like normal way just c language:
 
--        ```./excutable_file```
+-        ./excutable_file
