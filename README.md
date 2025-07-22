@@ -4,5 +4,5 @@ for run and compile code asm need install nasm for compile asm file to object fi
         ```nasm -f elf64 file.asm -o file.o```
               -f for chose format depending on your system
 now need excutable file we use command ld and ld for extruct excutable file from object file like this:
-        ld -o file file.o
+        ```ld -o file file.o```
 ./file for run this file that have a code asm 
