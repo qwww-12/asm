@@ -12,3 +12,16 @@
 - [x] we get a excute file and run this file like normal way just c language:
 
 -        ./excutable_file
+
+### version assembly
+
+if your device 32 bit use asm86 beacuse registers of the 32 bit is eax,ebx,e..
+
+if your device 64 bit use asm86_64 because has a registers of the 64 bit but you can use asm86 without any probleme
+
+-         eax= 0xFFFFFFFF 32-bit value (max unsigned)
+-         rax, 0xFFFFFFFFFFFFFFFF 64-bit value (max unsigned)
+-         mov eax, 0x01
+-         |
+-         -> eax= 0x00000001
+-         -> rax= 0x0000000000000001
