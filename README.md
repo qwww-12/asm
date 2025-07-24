@@ -22,6 +22,6 @@ if your device 64 bit use asm86_64 because has a registers of the 64 bit but you
 -         eax= 0xFFFFFFFF 32-bit value (max unsigned)
 -         rax, 0xFFFFFFFFFFFFFFFF 64-bit value (max unsigned)
 -         mov eax, 0x01
--         |
--         -> eax= 0x00000001
--         -> rax= 0x0000000000000001
+          |
+          |--> eax= 0x00000001
+          |--> rax= 0x0000000000000001
