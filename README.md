@@ -25,3 +25,6 @@ if your device 64 bit use asm86_64 because has a registers of the 64 bit but you
           |
           |--> eax= 0x00000001
           |--> rax= 0x0000000000000001
+for know n for bit of your device use this command
+
+          uname -m
