@@ -12,5 +12,6 @@ _21:
 	mov rbp, rsp
 	mov rdi, [rbp + 16]
 	add rdi, [rbp + 24]
+	dec rdi
 	pop rbp
 	ret
