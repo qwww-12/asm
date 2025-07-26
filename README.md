@@ -28,3 +28,13 @@ if your device 64 bit use asm86_64 because has a registers of the 64 bit but you
 for know n for bit of your device use this command
 
           uname -m
+
+### registers
+
+- [x] registers of 64-bit
+
+   - rax rbx rcx rdx rsi rdi rbp rsp r8 r9 r10 r11 r12 r13 r14 r15
+
+- [x] registers of 32-bit
+
+   - eax ebx
