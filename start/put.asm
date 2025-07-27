@@ -28,9 +28,9 @@ write1:
 	mov rdx, 1
 	syscall
 	cmp rsi, byte 10
-	jne call _wspace
-	ret
-_wspace:
+	je _exitnl
 	mov rsi, sps
 	syscall
+	ret
+_exitnl:
 	ret
