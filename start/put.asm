@@ -1,5 +1,6 @@
 section	.data
     	s db "qwww-12", 0xA, 0
+	sps db ' '
 	idx db 0
 section	.text
 	global _start
@@ -25,6 +26,6 @@ write1:
 	lea rsi, [rsi + rbx]
 	mov rdx, 1
 	syscall
-	mov rsi, " "
+	mov rsi, sps
 	syscall
 	ret
