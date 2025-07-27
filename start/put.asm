@@ -13,7 +13,8 @@ _start:
 _21char1char:
 	.loop:
 		movzx rbx, byte [idx]
-		cmp byte [rsi + rbx], 0
+		mov rsi, s
+		cmp [rsi + rbx], byte 0
 		je .done
 		call write1
 		inc byte [idx]
@@ -26,6 +27,10 @@ write1:
 	lea rsi, [rsi + rbx]
 	mov rdx, 1
 	syscall
+	cmp rsi, byte 10
+	jne call _wspace
+	ret
+_wspace:
 	mov rsi, sps
 	syscall
 	ret
