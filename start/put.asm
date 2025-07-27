@@ -27,7 +27,7 @@ write1:
 	lea rsi, [rsi + rbx]
 	mov rdx, 1
 	syscall
-	cmp rsi, byte 10
+	cmp [rsi + 0], byte 10
 	je _exitnl
 	mov rsi, sps
 	syscall
