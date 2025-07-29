@@ -42,25 +42,3 @@ for know n for bit of your device use this command
 - [x] registers of 16-bit
 
    #### ax bx cx dx si di bp sp r8w r9w r10w r11w r12w r13w r14w r15w
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-l
-l
-l
-l
-l
-l
-l
-
