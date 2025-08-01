@@ -1,5 +1,8 @@
 # Assembly language
 
+
+
+
 ### run assembly code
 - [x] for run and compile code asm need install nasm for compile asm file to object file like this:
 
